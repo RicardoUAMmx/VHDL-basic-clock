@@ -1,0 +1,6 @@
+# Ignore .DS file tracker
+*.DS_Store
+# Ignore VIM's .swp backups files
+*.swp
+# Ignore Google Drive Uploads
+*.tmp.driveupload
