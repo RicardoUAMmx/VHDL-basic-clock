@@ -9,14 +9,14 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity one_sec is
+entity cent_sec is
     port( 
         clk_100MHz : in std_logic;
         clk_100Hz : out std_logic
     );
-end one_sec;
+end cent_sec;
 
-architecture behavioral of one_sec is
+architecture behavioral of cent_sec is
 begin
 process(clk_100MHz)
 variable counter : natural range 0 to 1000000 := 0;

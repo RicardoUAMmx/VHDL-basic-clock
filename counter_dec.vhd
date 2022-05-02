@@ -31,7 +31,7 @@ begin
     if(reset = '1') then
         counter := 0;
         carrier <= '0';
-        binary_count (others => '0');
+        binary_count <= (others => '0');
     elsif(clk'event and clk = '1') then
         counter := counter + 1;
         binary_count <= binary_count + "0001";
